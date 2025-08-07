@@ -10,8 +10,10 @@ jobs:
   test:
       runs-on: windows-latest
       steps:
-        - name: Print test
-          run: echo 'test'
+        - name: Print test - chrome
+          run: echo 'test chrome'
+        - name: Print test - edge
+          run: echo 'test edge'
   deploy:
       runs-on: ubuntu-latest
       steps:
