@@ -5,18 +5,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      name: Print build
-      run: echo 'build'
+      - name: Print build
+        run: echo 'build'
   test:
       runs-on: windows-latest
       steps:
-        name: Print test
-        run: echo 'test'
+        - name: Print test
+          run: echo 'test'
   deploy:
       runs-on: ubuntu-latest
       steps:
-        name: Print deploy
-        run: echo 'deploy'
+        - name: Print deploy
+          run: echo 'deploy'
     
       
 
